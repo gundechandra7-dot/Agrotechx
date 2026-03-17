@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://agrotechx-backend.onrender.com";
 
 export const detectDisease = async (file) => {
   const formData = new FormData();
