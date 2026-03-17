@@ -24,3 +24,7 @@ def predict():
 
 if __name__ == "__main__":
     app.run()
+
+from flask_cors import CORS
+
+CORS(app)
